@@ -1,0 +1,103 @@
+.form-container{
+   background-color: #353535;
+   padding: 25px;
+   border-radius: 15px;
+   /* width:600px; */
+}
+
+.form-head-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-head{
+    color: #F4C196;
+    font-size: 24px;
+}
+
+.form-line{
+    width:100px;
+    border: none; 
+    height: 2px; 
+    background-color: #f5b895; 
+    margin-bottom: 20px;
+}
+
+.para-container{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #bdbdbd;
+}
+
+.name-phne-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-phne-container-frst-div{
+    width: 100%;
+    margin-right: 15px;
+}
+
+.name-phne-container-scnd-div{
+    width: 100%;
+}
+
+
+form input,textarea {
+    width:100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color:#bdbdbd;
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+
+form label {
+    font-size: 15px;
+    font-weight: 400;
+    color: #bdbdbd;
+}
+.input-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 2px solid #bdbdbd;
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+
+}
+
+
+form span {
+    font-size: 13px;
+
+}
+.form-icon{
+    margin-right: 10px;
+    font-weight: 300;
+}
+
+.form-btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form-btn-container button {
+    height:35px;
+    width:110px;
+    border-radius: 7px;
+    background-color: #F4C196;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+

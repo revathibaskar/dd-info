@@ -1,0 +1,41 @@
+.review-bg-container{
+    color: white;
+    margin-bottom: 50px;
+}
+
+.review-sec-head-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F4C196;
+}
+
+.review-sec-head-container h2 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.review-sec-head-container p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.review-sec-head-container hr {
+    border: none;
+    height:2px;
+    background-color: #F4C196;
+    width:100px;
+    margin-bottom: 15px;
+}
+
+.review-bg-container ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 40px;
+}
+

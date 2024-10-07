@@ -1,0 +1,26 @@
+.blink {
+    animation: blink 2s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  /* Up and down animation for the arrows */
+  .arrow {
+    animation: moveUpDown 2s infinite;
+  }
+  
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(10px);
+    }
+  }

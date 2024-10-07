@@ -1,0 +1,110 @@
+.bg-content{
+    font-family:"Roboto", sans-serif ;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.content-video-container {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+
+}
+
+.content-container{
+    animation: 2s ease-in-out 4s 1 normal backwards slide;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-150%);
+    }
+}
+
+.bg-content h1{
+    font-size: 35px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    color: #BDBDBD;
+    /* text-align: left; */
+}
+
+.bg-content span {
+    color: #F4C196;
+}
+
+.bg-content p {
+    color:#BDBDBD;
+    font-size: 18px;
+    margin-bottom: 28px;
+    line-height: 1.8;
+    /* text-align: left; */
+}
+
+.bg-content button {
+    height:50px;
+    width: 190px;
+    border-radius: 30px;
+    background-color:#CEA57B;
+    border: none;
+    color:#000;
+    text-decoration: underline;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.main-bg-video{
+    width:750px;
+    animation: resizeAndMove 7s ease forwards;
+    transform-origin: center; /* Makes sure the scaling happens from the center */
+    /* animation:2s ease-out 0s 1 normal backwards videoslide; 
+ */
+}
+
+@keyframes resizeAndMove {
+    0% {
+        transform: translate(-50%, 30%) scale(1.8); /* Start large and centered */
+        opacity: 1; /* Fully visible */
+    }
+
+    65% {
+        transform: translate(-50%, 10%) scale(1); /* Start large and centered */
+        opacity: 1; /* Fully visible */   
+    }
+    90% {
+        transform: translate(0, 0) scale(1); /* Shrink to normal size */
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0, 0) scale(1); /* Shrink to normal size */
+        opacity: 1;
+    }
+}
+
+.mouse-logo-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-right: 80px;
+   opacity: 0; /* Initially hidden */
+   animation: showMouse 1s ease forwards 5.5s;
+}
+
+@keyframes showMouse {
+    0% {
+        opacity: 0; /* Still hidden */
+    }
+    100% {
+        opacity: 1; /* Fully visible */
+    }
+}
+
+/* .mouse-logo{
+    height: 70px;
+    width: 70px;
+    font-weight: 700;
+} */

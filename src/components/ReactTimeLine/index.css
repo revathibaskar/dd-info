@@ -1,0 +1,11 @@
+.react{
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+.bg-card{
+    background-color: black;
+}
+
+  .vertical-timeline-element-content {
+    box-shadow: none !important;
+  }

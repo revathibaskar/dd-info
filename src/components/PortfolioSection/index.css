@@ -1,0 +1,113 @@
+.porttfolio-bg-container{
+    color: white;
+    font-family:"Roboto", sans-serif ;
+    padding: 0px 100px;
+}
+
+.portfolio-head-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 55px;
+ }
+
+.portfolio-head{
+    color: #BDBDBD;
+    font-size: 35px;
+    font-weight: bold;
+    display: inline-block;
+    /* position: relative; */
+    padding-bottom: 10px;
+ 
+}
+.porttfolio-bg-container h3 {
+    color:#F4C196;
+    font-size: 23px;
+    font-weight: 500;
+    padding-left: 70px;
+    margin-bottom: 50px;
+}
+
+.portfolio-head span {
+    color:#F4C196;
+}
+
+.hr-line{ 
+  border-top: 2px solid #BDBDBD;
+  width: 200px;
+}
+
+.img-card-animation-container{
+    margin-bottom: 40px;
+}
+
+.image-1{
+    background-image: url("https://img.freepik.com/free-photo/white-smart-wooden-desk_93675-129794.jpg?t=st=1727882704~exp=1727886304~hmac=d6620b0915cb6e9acd2a29f8d399bdd93bbaa9b418cbb24da8966884a76eaea5&w=740");
+    background-size: cover;
+    height: 20vh;
+    filter: blur(4px);
+    transition: height 1s ease-in-out, filter 1s ease-in-out;
+
+}
+
+.image-2{
+    background-image: url("https://img.freepik.com/premium-photo/female-hand-with-mobile-phone-color-background_996201-40909.jpg?w=826");
+    background-size: cover;
+    height: 20vh;
+    filter: blur(4px);
+    transition: height 1s ease-in-out, filter 1s ease-in-out;
+}
+
+.image-3{
+    background-image: url("https://img.freepik.com/premium-photo/female-hand-with-mobile-phone-color-background_996201-41006.jpg?w=826");
+    background-size: cover;
+    height: 20vh;
+    filter: blur(4px);
+    transition: height 1s ease-in-out, filter 1s ease-in-out;
+}
+
+.image-4{
+    background-image: url("https://img.freepik.com/premium-photo/female-hand-with-mobile-phone-color-background_996201-40916.jpg?w=826");
+    background-size: cover;
+    height: 20vh;
+    filter: blur(4px);
+    transition: height 1s ease-in-out, filter 1s ease-in-out;
+}
+
+.image-5{
+    background-image: url("https://img.freepik.com/premium-photo/female-hand-with-mobile-phone-color-background_996201-40765.jpg?w=826");
+    background-size: cover;
+    height: 20vh;
+    filter: blur(4px);
+    transition: height 1s ease-in-out, filter 1s ease-in-out;
+}
+
+.image-1:hover{
+    height: 100vh;
+    filter: blur(0);
+    background-position: center;
+}
+
+.image-2:hover{
+    height: 100vh;
+    filter: blur(0);
+    background-position: center;
+}
+
+.image-3:hover{
+    height: 100vh;
+    filter: blur(0);
+    background-position: center;
+}
+
+.image-4:hover{
+    height: 100vh;
+    filter: blur(0);
+    background-position: center;
+}
+
+.image-5:hover{
+    height: 100vh;
+    filter: blur(0);
+    background-position: center;
+}

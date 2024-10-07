@@ -1,0 +1,46 @@
+.review-li-container {
+    border: 2px solid #F4C196;
+    width:300px;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+
+}
+
+.review-li-container p {
+    color: #bdbdbd;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+.quate-icon{
+    color: #F4C196;
+    font-size: 30px;
+    position: absolute;
+    top:-12px;
+    right: 20px;
+}
+
+.review-li-container img {
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.img-review-container{
+     display: flex;
+     align-items: center;
+     gap: 15px;
+}
+
+.review-li-container h4{
+    color: #F4C196;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.star-icon{
+    color: #F4C196;
+}
