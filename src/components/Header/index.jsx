@@ -11,6 +11,7 @@ const Header = () => {
   }
 
   return (
+    <div className='header-main-container'>
      <header>
         <img src={ddLogo} className='dd-logo' />
         <ul className='header-ul-con'>
@@ -25,6 +26,7 @@ const Header = () => {
             <button className='btn-style-header'>Enquire Now</button>
         </div>
     </header> 
+    </div>
   )
 }
 

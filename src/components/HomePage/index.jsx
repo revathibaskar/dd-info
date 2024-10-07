@@ -10,7 +10,6 @@ import ProjectSection from '../ProjectSection'
 import ReviewSection from '../ReviewSection'
 import Footer from '../Footer'
 import PortfolioSection from '../PortfolioSection'
-import ImageSlider from '../ImageSlider'
 
 const HomePage = () => {
   return (

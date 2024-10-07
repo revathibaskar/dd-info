@@ -1,6 +1,5 @@
 .video-container{
     position: relative;
-    height: 100vh; /* Full viewport height */
     overflow: hidden;
 }
 

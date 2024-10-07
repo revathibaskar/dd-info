@@ -1,3 +1,8 @@
+.header-main-container{
+    display: flex;
+    justify-content: center;
+}
+
 header{
     display:flex;
     justify-content: space-between;
@@ -13,10 +18,10 @@ header{
     margin-right: 80px;
     margin-left: 80px;
     border-radius: 8px;
-    position: fixed;
+     position: fixed;
     z-index: 5;
-    top:0;
-    left:6%;
+    top:0px;
+   
 }
 
 .header-ul-con{
@@ -44,7 +49,7 @@ header{
 /* .color {
     color: #fac196;
 } */
- 
+
 .btn-style-header{
     height: 40px;
     width:120px;
