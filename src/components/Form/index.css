@@ -2,7 +2,14 @@
    background-color: #353535;
    padding: 25px;
    border-radius: 15px;
+   margin: 20px;
    /* width:600px; */
+}
+
+@media screen and (min-width:992px) {
+    .form-container{
+        margin: 0;
+    }
 }
 
 .form-head-container{
@@ -31,10 +38,13 @@
     color: #bdbdbd;
 }
 
-.name-phne-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+@media  screen and (min-width:992px) {
+    .name-phne-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }    
 }
 
 .name-phne-container-frst-div{

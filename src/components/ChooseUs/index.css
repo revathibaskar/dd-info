@@ -31,44 +31,60 @@
 
 .choose-us-head-container h1{
     color: #F4C196;
-    font-size:35px;
+    font-size:25px;
     font-weight:700;
-    line-height: 3;
+    line-height: 1.5;
+    padding-bottom: 10px;
 }
 
+@media screen and (min-width:992px) {
+    .choose-us-head-container h1{
+        font-size: 35px;
+        line-height: 3;
+    }
+}
 
 
 .choose-us-head-container h3{
-    font-size:20px;
+    font-size:14px;
     font-weight: 400;
-    color: #bdbdbd;
-    
+    color: #bdbdbd; 
+    line-height:1.5;
+    padding-bottom: 10px;
 
 }
+
+
+@media screen and (min-width:992px) {
+    .choose-us-head-container h3{
+        font-size:20px;
+        font-weight: 400;
+        color: #bdbdbd; 
+    }
+}
+
 
 .success-stry-ul-con{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
-}
-
-.success-stry-ul-con{
     justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap:20px;
 }
 
 .success-stry-head{
     color: #BDBDBD;
-     font-size: 35px;
+     font-size: 30px;
      font-weight: 500;
      text-align: center;
      margin-top: 60px;
      margin-bottom: 50px;
 }
 
-@media screen and (min-width:992px){
+@media screen and (min-width:1024px){
     .success-stry-head{
-        font-size: 35px;
+        font-size: 30px;
     }
 }
 
@@ -82,23 +98,23 @@
 }
 .success-stry-ul-con h1 {
     color:#F4C196;
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 500;
 }
 
-@media screen and (min-width:992px){
+@media screen and (min-width:1024px){
     .success-stry-ul-con h1{
-        font-size: 45px;
+        font-size: 35px;
     }
 }
 
 .success-stry-ul-con h4 {
     color: #bdbdbd;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
 } 
 
-@media screen and (min-width:992px){
+@media screen and (min-width:1024px){
     .success-stry-ul-con h4 {
         font-size: 20px;
     }

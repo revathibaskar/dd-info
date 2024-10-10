@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../Header'
+import HeaderNav from '../HeaderNav'
 import backgroundVideo from '../../assets/backgroundVideo.mp4'
 import './index.css'
 import BgContent from '../BgContent'
@@ -20,7 +20,7 @@ const HomePage = () => {
             Your browser does not support the video tag.
         </video>
         <div className='content'>
-        <Header />
+        <HeaderNav />
         <BgContent />
         </div>
     </div> 

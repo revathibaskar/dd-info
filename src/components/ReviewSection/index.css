@@ -14,12 +14,14 @@
     margin-bottom: 15px;
     font-size: 30px;
     font-weight: 500;
+    text-align: center;
 }
 
 .review-sec-head-container p {
     font-size: 20px;
     margin-bottom: 15px;
     font-weight: 500;
+    text-align: center;
 }
 
 .review-sec-head-container hr {
@@ -30,12 +32,25 @@
     margin-bottom: 15px;
 }
 
-.review-bg-container ul {
+.review-bg-container ul{
     list-style-type: none;
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
     gap: 60px;
     margin-top: 40px;
 }
+
+@media screen and (min-width:992px)  {
+    .review-bg-container ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        margin-top: 40px;
+    }
+}
+
 

@@ -1,23 +1,81 @@
 .bg-content{
     font-family:"Roboto", sans-serif ;
-    padding-left: 80px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .content-video-container {
-     display: flex;
-     justify-content: space-evenly;
-     align-items: center;
-
+     display: none;
 }
 
-.content-container{
+.mobile-content-video-container{
+    display: block;
+}
+
+.mobile-content-container{
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.mobile-content-container h1{
+    font-size: 24px;
+    margin-bottom: 18px;
+    line-height: 1.5;
+    color: #BDBDBD;
+}
+
+.mobile-content-container span {
+    color: #F4C196;
+}
+
+.mobile-content-container p {
+    color:#BDBDBD;
+    font-size: 13px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    /* text-align: left; */
+}
+
+.mobile-content-container button {
+    height:40px;
+    width: 160px;
+    border-radius: 30px;
+    background-color:#CEA57B;
+    border: none;
+    color:#000;
+    text-decoration: underline;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.mobile-main-bg-video{
+    width:100%;
+    animation: resizeAndMove 7s ease forwards;
+    transform-origin: center; /* Makes sure the scaling happens from the center */
+    /* animation:2s ease-out 0s 1 normal backwards videoslide; 
+ */
+}
+
+@media screen and (min-width:1024px) {
+    .bg-content{
+        padding-left: 80px;
+    }
+    .mobile-content-video-container{
+        display: none;
+    }
+    .content-video-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+   }
+   .content-container{
     animation: 2s ease-in-out 4s 1 normal backwards slide;
-}
-
-@keyframes slide {
+  }
+  @keyframes slide {
     0% {
         transform: translateX(-150%);
     }
@@ -56,7 +114,6 @@
     font-weight: 500;
     padding: 5px;
 }
-
 .main-bg-video{
     width:750px;
     animation: resizeAndMove 7s ease forwards;
@@ -84,12 +141,35 @@
         opacity: 1;
     }
 }
+.mouse-logo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 80px;
+    opacity: 0; /* Initially hidden */
+    animation: showMouse 1s ease forwards 5.5s;
+ }
+ 
+ @keyframes showMouse {
+     0% {
+         opacity: 0; /* Still hidden */
+     }
+     100% {
+         opacity: 1; /* Fully visible */
+     }
+ }
+
+.mouse-logo-container{
+     margin-right: 80px;
+}
+
+}
+
 
 .mouse-logo-container{
    display: flex;
    flex-direction: row;
    justify-content: center;
-   margin-right: 80px;
    opacity: 0; /* Initially hidden */
    animation: showMouse 1s ease forwards 5.5s;
 }
@@ -103,8 +183,3 @@
     }
 }
 
-/* .mouse-logo{
-    height: 70px;
-    width: 70px;
-    font-weight: 700;
-} */

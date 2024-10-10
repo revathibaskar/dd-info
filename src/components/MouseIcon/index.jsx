@@ -6,7 +6,7 @@ const MouseIcon = () => {
     <svg
       className="mouse-icon blink"
       width="43"
-      height="65"
+      height="55"
       viewBox="0 0 38 105"
       fill="none"
       strokeWidth="1"

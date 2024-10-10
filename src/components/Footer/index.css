@@ -5,7 +5,14 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    padding:40px 150px;
+    flex-wrap: wrap;
+    padding:40px 0px;
+}
+
+@media screen and (min-width:1024px) {
+    footer{
+        padding:40px 150px;
+    }
 }
 .footer-div-sec{
    display: flex;
@@ -15,8 +22,14 @@ footer{
 
 footer h1 {
    margin-bottom: 20px;
-   font-size: 24px;
+   font-size: 20px;
    font-weight: 500;
+}
+
+@media screen and (min-width:1024px) {
+    footer h1 {
+        font-size: 24px;
+    }
 }
 
 footer ul{
@@ -37,6 +50,7 @@ footer button{
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    border: none;
 }
 
 .angle-right-icon{

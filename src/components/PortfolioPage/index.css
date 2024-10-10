@@ -1,0 +1,113 @@
+.porttfolio-bg-container{
+    color: white;
+    font-family:"Roboto", sans-serif ;
+    padding: 100px 100px;
+}
+
+.portfolio-head-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 55px;
+ }
+
+.portfolio-head{
+    color: #BDBDBD;
+    font-size: 35px;
+    font-weight: bold;
+    display: inline-block;
+    /* position: relative; */
+    padding-bottom: 10px;
+ 
+}
+.porttfolio-bg-container h3 {
+    color:#F4C196;
+    font-size: 23px;
+    font-weight: 500;
+    padding-left: 70px;
+    margin-bottom: 50px;
+}
+
+.portfolio-head span {
+    color:#F4C196;
+}
+
+.hr-line{ 
+  border-top: 2px solid #BDBDBD;
+  width: 200px;
+}
+
+.img-card-animation-container{
+    margin-bottom: 40px;
+}
+
+.image-1{
+    background-image: url("../../assets/PortfolioImg1.png");
+    background-size: cover;
+    height: 20vh;
+    filter: blur(4px);
+    transition: height 1s ease-in-out, filter 1s ease-in-out;
+
+}
+
+.image-2{
+    background-image: url("../../assets/PortfolioImg2.png");
+    background-size: cover;
+    height: 20vh;
+    filter: blur(4px);
+    transition: height 1s ease-in-out, filter 1s ease-in-out;
+}
+
+.image-3{
+    background-image: url("../../assets/PortfolioImg3.png");
+    background-size: cover;
+    height: 20vh;
+    filter: blur(4px);
+    transition: height 1s ease-in-out, filter 1s ease-in-out;
+}
+
+.image-4{
+    background-image: url("../../assets/PortfolioImg4.png");
+    background-size: cover;
+    height: 20vh;
+    filter: blur(4px);
+    transition: height 1s ease-in-out, filter 1s ease-in-out;
+}
+
+.image-5{
+    background-image: url("../../assets/PortfolioImg5.png");
+    background-size: cover;
+    height: 20vh;
+    filter: blur(4px);
+    transition: height 1s ease-in-out, filter 1s ease-in-out;
+}
+
+.image-1:hover{
+    height: 100vh;
+    filter: blur(0);
+    background-position: center;
+}
+
+.image-2:hover{
+    height: 100vh;
+    filter: blur(0);
+    background-position: center;
+}
+
+.image-3:hover{
+    height: 100vh;
+    filter: blur(0);
+    background-position: center;
+}
+
+.image-4:hover{
+    height: 100vh;
+    filter: blur(0);
+    background-position: center;
+}
+
+.image-5:hover{
+    height: 100vh;
+    filter: blur(0);
+    background-position: center;
+}

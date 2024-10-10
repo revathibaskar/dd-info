@@ -10,12 +10,11 @@ import './index.css'
  <VerticalTimeline lineColor="gray">
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'black', color: '#CEA57B',border:'2px solid #CEA57B'}}
+    contentStyle={{ background: 'black', color: '#CEA57B',border:'0.1em solid #CEA57B'}}
     contentArrowStyle={{ borderRight: '7px solid #CEA57B' }}
     iconStyle={{ background: '#CEA57B', height:'60px',width:'60px', boxShadow: 'none' 
     }}
 
-    
   >
     <h3 style={{fontSize:'28px'}}>Fast Executions  <span style={{fontSize:'40px'}}> 01</span></h3>
     <p style={{color:'#BDBDBD', fontSize:'18px'}}>
@@ -24,7 +23,7 @@ import './index.css'
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-   contentStyle={{backgroundColor:'black',color:'#CEA57B',border:'2px solid #CEA57B'}}
+   contentStyle={{backgroundColor:'black',color:'#CEA57B',border:'0.1em solid #CEA57B'}}
     iconStyle={{ background: '#CEA57B', height:'60px',width:'60px', boxShadow: 'none', right:'0px'}}
     contentArrowStyle={{ borderRight: '7px solid #CEA57B' }}
    
@@ -36,7 +35,7 @@ import './index.css'
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{backgroundColor:'black',color:'#CEA57B',border:'2px solid #CEA57B'}}
+    contentStyle={{backgroundColor:'black',color:'#CEA57B',border:'0.1em solid #CEA57B'}}
     iconStyle={{ background: '#CEA57B', height:'60px',width:'60px', boxShadow: 'none'}}
     contentArrowStyle={{ borderRight: '7px solid #CEA57B' }}
     

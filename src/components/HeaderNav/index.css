@@ -1,0 +1,150 @@
+.header-main-container{
+    width: 100%;
+    height: 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color: #353535;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+    position: fixed;
+    z-index: 5;
+    top:0px;
+   
+}
+
+.dd-logo{
+    height: 25px;
+    width: 25px;
+  }
+
+nav{
+    display: block;
+    position: fixed;
+    top:60px;
+    right: -1000px;
+    background-color: black;
+    width:50%;
+    height: 100%;
+    transition: 0.5s ease;
+}
+
+.active-nav{
+    right: 0;
+}
+
+.mobile-header-ul-con{
+    list-style-type: none;
+}
+
+.mobile-header-ul-con li {
+    padding: 20px;
+    text-align: left;
+}
+
+.remove-line{
+    text-decoration: none;
+    color: #fff;
+}
+
+.mobile-header-btn-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile-btn-style-header{
+    height: 40px;
+    width: 60%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #CEA57B;
+    color: #fac196;
+    background-color: transparent;
+    font: inherit;
+    font-size: 15px;
+    font-weight:400;
+}
+
+.header-ul-con{
+    display: none;
+}
+
+.header-btn-container{
+    display: none;
+}
+
+.header-menu-icon{
+    font-size: 27px;
+}
+
+@media screen and (min-width:1024px) {
+    header{
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-main-container{
+        height: 60px;
+        width: 90%;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left:30px;
+        padding-right:30px;
+        padding-top:10px;
+        padding-bottom: 10px;
+        background-color: #353535;
+        font-family: "Roboto", sans-serif;
+        margin-bottom: 20px;
+        position: fixed;
+        z-index: 5;
+        top:0px;
+        border-radius: 10px; 
+    }
+
+    nav{
+        display: none;
+    }
+    .mobile-menu-container{
+        display: none;
+    }
+    .header-ul-con{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap:60px;
+        list-style-type: none;
+        margin-left: 20px;
+    }
+    .header-ul-con li{
+        color: #fff;
+        font-size: 18px;
+    }
+    .header-btn-container{
+        display:block;
+        display: flex;
+        flex-direction: row;
+    }
+        
+    .btn-style-header{
+        height: 40px;
+        width:100px;
+        border-radius: 20px;
+        margin-left: 20px;
+        border: 1px solid #CEA57B;
+        color: #fac196;
+        background-color: transparent;
+        font: inherit;
+        font-size: 15px;
+        font-weight:400;
+    }
+    
+    .header-menu-container{
+        display: none;
+    }
+}

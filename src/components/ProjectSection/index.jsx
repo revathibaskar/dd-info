@@ -7,16 +7,9 @@ import './index.css'
 const ProjectSection = () => {
   return (
     <div className='project-sec-container'>
-      <div className='project-heading-container'>
-        <div className='arrow-container'>
-        <hr className='heading-hr-line' />
-        <IoMdPlay className='arrow-play-icon' />
-        </div>
-          <h1 className='project-text'>Have a Project</h1>
-        <div className='arrow-container'>
-          <RiPlayReverseLargeFill className='arrow-play-icon' />
-          <hr className='heading-hr-line' />
-        </div>
+      <div className='project-head-container'>
+        <h1 className='project-head'>Have a <span>Project</span></h1>
+        <hr className='hr-line'/>
       </div>
       <div className='project-main-container'>
        <div className='project-left-container'>
