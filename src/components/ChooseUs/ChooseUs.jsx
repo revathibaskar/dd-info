@@ -1,7 +1,8 @@
 import React from 'react'
 import { useEffect, useRef } from 'react';
 import './ChooseUs.css'
-import ReactTimeLine from '../ReactTimeLine/ReactTimeLine'
+import TimeLine from '../TimeLine/TimeLine'
+import ReactTimeLine from '../ReactTimeLine/ReactTimeLine';
 
 const ChooseUs = () => {
   const chooseUsRef = useRef(null);
@@ -38,7 +39,7 @@ const ChooseUs = () => {
         <h1>Few Reasons Why People Choosing Us!</h1>
         <h3>To Help You Design And Scale Digital Products That Users Love</h3>
    </div>
-   <ReactTimeLine />
+   <TimeLine />
    <h1 className='success-stry-head'>Our <span>Success</span> Story</h1>
    <ul className='success-stry-ul-con'>
     <li>
