@@ -5,6 +5,7 @@ import PortfolioPage from './components/PortfolioPage/PortfolioPage.jsx';
 import ServicePage from './components/ServicesPage/ServicePage.jsx';
 import AboutPage from './components/AboutPage/AboutPage.jsx';
 import './App.css'
+import ReviewPage from './components/ReviewPage/ReviewPage.jsx';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/services" element={<ServicePage />} /> 
       <Route path="/careers" element={<CareersPage />} />
       <Route path="/portfolio" element={<PortfolioPage />} />
+      <Route path="/reviewpage" element={<ReviewPage />} />
     </Routes>
   </Router>
   )

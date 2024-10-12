@@ -86,4 +86,44 @@
     background-position: center;
     filter: blur(0);
 }
+
+@media screen and (min-width:768px) {
+  .slider2-container{
+    padding: 0 100px;
+  }
+  
+  .slider2-img1,
+  .slider2-img2,
+  .slider2-img3,
+  .slider2-img4,
+  .slider2-img5{
+    height: 20vh;
+  }
+  .slider2-img1:hover{
+    background-image: url('../../assets/PortfolioImg1.png');
+    background-size: cover;
+  }
+
+  .slider2-img2:hover{
+    background-image: url('../../assets/PortfolioImg2.png');
+    background-size: cover;
+  }
+
+  .slider2-img3:hover{
+    background-image: url('../../assets/PortfolioImg3.png');
+    background-size: cover;
+  }
+  .slider2-img4:hover{
+    background-image: url('../../assets/PortfolioImg4.png');
+    background-size: cover;
+  }
+  .slider2-img5:hover{
+    background-image: url('../../assets/PortfolioImg5.png');
+    background-size: cover;
+  }
+
+
+
+
+}
  

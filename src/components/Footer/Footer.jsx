@@ -8,7 +8,46 @@ import { FaAngleRight } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer>
+   <>
+   <footer className='small-sec-footer-bg'>
+    <div className='small-sec-footer'>
+      <div className='footer-div-sec'>
+        <h1>Quick Links</h1>
+        <ul>
+            <li>Home</li>
+            <li>Service</li>
+            <li>Portfolio</li>
+            <li>Careers</li>
+            <li>About</li>
+        </ul>
+      </div>
+      <div className='footer-div-sec'>
+        <h1>Service</h1>
+        <ul>
+            <li>Mobile App Development</li>
+            <li>UI/UX Design</li>
+            <li>Web Development</li>
+            <li>Digital Marketing</li>
+        </ul>
+      </div>
+        <div>
+        <h3>Follow Us</h3>
+        <div className='apps-icon-container'>
+            <FaLinkedinIn className='app-icon'/>
+            <FaFacebookSquare className='app-icon' />
+            <IoLogoInstagram className='app-icon' />
+            <FaXTwitter className='app-icon' />
+        </div>
+        </div>
+        <div>
+        <h3>Write For Us</h3>
+        </div>  
+        </div>
+        <div className='footer-btn-container'>
+        <button>Project Enquiry <FaAngleRight className='angle-right-icon' /> </button>
+        </div>
+    </footer>
+    <footer className='medium-sec-footer'>
       <div className='footer-div-sec'>
         <h1>Quick Links</h1>
         <ul>
@@ -40,6 +79,7 @@ const Footer = () => {
         <h3>Write For Us</h3>
       </div>
     </footer>
+    </>  
   )
 }
 

@@ -1,6 +1,7 @@
-.review-bg-container{
+.review-page-bg-container{
     color: white;
     margin-bottom: 50px;
+    margin-top: 100px;
 }
 
 .review-sec-head-container{
@@ -32,21 +33,15 @@
     margin-bottom: 15px;
 }
 
-.review-section-card-ul{
-   display: none;
-   margin-top: 40px;
+.review-card-ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 40px;
 }
 
-@media screen and (min-width:552px)  {
-    .review-section-card-ul{
-        list-style-type: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 60px;
-        margin-top: 40px;
-    }
-}
 
 

@@ -1,16 +1,28 @@
+
+.mble-review-ul{
+    margin-top: 20px;
+    list-style-type: none ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width:552px) {
+    .mble-review-ul{
+        display: none;
+    }
+}
+
 .review-li-container {
     border: 2px solid #F4C196;
-    /* width:300px; */
+    width:300px;
     border-radius: 10px;
     padding: 20px;
     position: relative;
     margin: 0 20px;
-}
-
-@media screen and (min-width:768px) {
-    .review-li-container{
-        width: 300px;
-    }
 }
 
 .review-li-container p {
@@ -19,6 +31,12 @@
     font-weight: 300;
     margin-bottom: 50px;
     line-height: 1.5;
+}
+
+.review-li-container p span {
+    color:#ffffff;
+    font-weight: 500;
+    font-size: 19px;
 }
 .quate-icon{
     color: #F4C196;
