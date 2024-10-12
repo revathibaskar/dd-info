@@ -6,6 +6,8 @@
   background-size:cover;
   height: 10vh;
   background-repeat: no-repeat;
+  filter: blur(4px);
+  transition: height 1s ease-in-out, filter 1s ease-in-out;
 }
 
 .slider2-img2{
@@ -13,6 +15,8 @@
     background-size:cover;
     height: 10vh;
     background-repeat: no-repeat;
+    filter: blur(4px);
+    transition: height 1s ease-in-out, filter 1s ease-in-out;
   }
 
   .slider2-img3{
@@ -20,6 +24,8 @@
     background-size:cover;
     height: 10vh;
     background-repeat: no-repeat;
+    filter: blur(4px);
+    transition: height 1s ease-in-out, filter 1s ease-in-out;
   }  
 
   .slider2-img4{
@@ -27,6 +33,8 @@
     background-size:cover;
     height: 10vh;
     background-repeat: no-repeat;
+    filter: blur(4px);
+    transition: height 1s ease-in-out, filter 1s ease-in-out;
   }
 
   .slider2-img5{
@@ -34,6 +42,8 @@
     background-size:cover;
     height: 10vh;
     background-repeat: no-repeat;
+    filter: blur(4px);
+    transition: height 1s ease-in-out, filter 1s ease-in-out;
   }
 
   .slider2-img1:hover
@@ -42,32 +52,38 @@
     height: 100vh;
     background-size: contain;
     background-position: center;
+    filter: blur(0);
 }
 
 .slider2-img2:hover{
-  background-image: url('../../assets/mobile5.png');
+    background-image: url('../../assets/mobile5.png');
     height: 100vh;
     background-size: contain;
     background-position: center;
+    filter: blur(0);
 }
 
 .slider2-img3:hover{
-  background-image: url('../../assets/mobile4.png');
+    background-image: url('../../assets/mobile4.png');
     height: 100vh;
     background-size: contain;
     background-position: center;
+    filter: blur(0);
 }
 
 .slider2-img4:hover{
-  background-image: url('../../assets/mobile2.png');
+    background-image: url('../../assets/mobile2.png');
     height: 100vh;
     background-size: contain;
     background-position: center;
+    filter: blur(0);
 }
 
 .slider2-img5:hover{
-  background-image: url('../../assets/mobile3.png');
+    background-image: url('../../assets/mobile3.png');
     height: 100vh;
     background-size: contain;
     background-position: center;
+    filter: blur(0);
 }
+ 
