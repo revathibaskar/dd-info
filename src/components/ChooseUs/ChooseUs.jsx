@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useRef } from 'react';
-import './index.css'
-import ReactTimeLine from '../ReactTimeLine'
+import './ChooseUs.css'
+import ReactTimeLine from '../ReactTimeLine/ReactTimeLine'
 
 const ChooseUs = () => {
   const chooseUsRef = useRef(null);

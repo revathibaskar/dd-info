@@ -1,5 +1,5 @@
 import React from 'react'
-import './index.css'
+import './ReviewCard.css'
 import { FaQuoteRight } from "react-icons/fa";
 import { IoIosStar } from "react-icons/io";
 const ReviewCard = (props) => {

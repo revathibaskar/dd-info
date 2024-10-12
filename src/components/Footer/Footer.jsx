@@ -1,5 +1,5 @@
 import React from 'react'
-import './index.css'
+import './Footer.css'
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io";

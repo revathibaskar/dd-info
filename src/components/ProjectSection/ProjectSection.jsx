@@ -1,8 +1,8 @@
 import React from 'react'
 import { IoMdPlay } from "react-icons/io";
 import { RiPlayReverseLargeFill } from "react-icons/ri";
-import Form from '../Form'
-import './index.css'
+import Form from '../Form/Form'
+import './ProjectSection.css'
 
 const ProjectSection = () => {
   return (

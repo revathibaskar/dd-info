@@ -3,9 +3,9 @@ import ddLogo from "../../assets/ddLogo.png"
 import { Link } from 'react-router-dom';
 import { CgMenuRight } from "react-icons/cg";
 import { BsXLg } from "react-icons/bs";
-import "./index.css"
+import "./Header.css"
 
-const HeaderNav = () => {
+const Header = () => {
   const [isCliked,setClick] = useState(false)
 
   const handleClick = () => {
@@ -49,4 +49,4 @@ const HeaderNav = () => {
   )
 }
 
-export default HeaderNav
+export default Header

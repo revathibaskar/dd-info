@@ -1,7 +1,7 @@
 import React from 'react'
-import './index.css'
+import './BgContent.css'
 import main3dVideo from '../../assets/main3dVideo.mp4'
-import  MouseIcon from '../MouseIcon'
+import  MouseIcon from '../MouseIcon/MouseIcon'
 
 const BgContent = () => {
   return (

@@ -1,10 +1,10 @@
 import React from 'react'
-import './index.css'
+import './ServiceSecion.css'
 import UiUxImg from '../../assets/UIUX.svg';
 import WebDevImg from '../../assets/WebDev.svg';
 import DigMarketImg from '../../assets/DigMarket.svg';
 import AppDevImg from '../../assets/AppDev.svg';
-import ServiceCard from '../ServiceCard';
+import ServiceCard from '../ServiceCard/ServiceCard';
 
 const servicesArray = [
     {id:1,fieldName:'UX & UI Design',fieldItems:['Website Design','Prototype','Animation','Wireframes','Case Study'],img:UiUxImg},

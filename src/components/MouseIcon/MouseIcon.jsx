@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css'; // Import the CSS file for animations
+import './MouseIcon.css'; // Import the CSS file for animations
 
 const MouseIcon = () => {
   return (

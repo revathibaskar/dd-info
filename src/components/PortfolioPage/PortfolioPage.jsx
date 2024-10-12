@@ -1,12 +1,12 @@
 import React from 'react'
-import './index.css'
-import HeaderNav from '../HeaderNav'
-import Footer from '../Footer'
+import './PortfolioPage.css'
+import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
 
 const PortfolioPage = () => {
   return (
       <>
-        <HeaderNav />
+        <Header/>
         <div className='porttfolio-bg-container'>
         <div className='portfolio-head-container'>
           <h1 className='portfolio-head'>Our <span>Portfolio</span></h1>

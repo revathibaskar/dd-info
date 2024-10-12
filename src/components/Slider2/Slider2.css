@@ -1,0 +1,73 @@
+.slider2-container{
+    margin: 100px 0px;
+}
+.slider2-img1{
+  background-image: url("../../assets/PortfolioImg1.png");
+  background-size:cover;
+  height: 10vh;
+  background-repeat: no-repeat;
+}
+
+.slider2-img2{
+    background-image: url("../../assets/PortfolioImg2.png");
+    background-size:cover;
+    height: 10vh;
+    background-repeat: no-repeat;
+  }
+
+  .slider2-img3{
+    background-image: url("../../assets/PortfolioImg3.png");
+    background-size:cover;
+    height: 10vh;
+    background-repeat: no-repeat;
+  }  
+
+  .slider2-img4{
+    background-image: url("../../assets/PortfolioImg4.png");
+    background-size:cover;
+    height: 10vh;
+    background-repeat: no-repeat;
+  }
+
+  .slider2-img5{
+    background-image: url("../../assets/PortfolioImg5.png");
+    background-size:cover;
+    height: 10vh;
+    background-repeat: no-repeat;
+  }
+
+  .slider2-img1:hover
+  {
+    background-image: url('../../assets/mobile1.png');
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+}
+
+.slider2-img2:hover{
+  background-image: url('../../assets/mobile5.png');
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+}
+
+.slider2-img3:hover{
+  background-image: url('../../assets/mobile4.png');
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+}
+
+.slider2-img4:hover{
+  background-image: url('../../assets/mobile2.png');
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+}
+
+.slider2-img5:hover{
+  background-image: url('../../assets/mobile3.png');
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+}

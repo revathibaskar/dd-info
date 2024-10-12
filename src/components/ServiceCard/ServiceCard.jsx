@@ -1,6 +1,6 @@
 import React from 'react'
 import tick from '../../assets/tick.png'
-import './index.css'
+import './ServiceCard.css'
 const ServiceCard = (props) => {
     const {servicesArrayItem} = props
     const {fieldName,fieldItems,img} = servicesArrayItem

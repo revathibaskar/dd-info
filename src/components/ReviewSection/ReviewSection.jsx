@@ -1,6 +1,6 @@
 import React from 'react'
-import './index.css'
-import ReviewCard from '../ReviewCard';
+import './ReviewSection.css'
+import ReviewCard from '../ReviewCard/ReviewCard';
 import boyImage1 from '../../assets/cartoonBoy1.avif' 
 import boyImage2 from '../../assets/cartoonBoy2.jpg' 
 import girlImage1 from '../../assets/cartoonGirl1.avif' 

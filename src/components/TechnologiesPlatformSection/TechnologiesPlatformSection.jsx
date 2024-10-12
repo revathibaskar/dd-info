@@ -4,7 +4,7 @@ import FrontEnd from '../../assets/FrontEnd.png'
 import BackEnd from  '../../assets/BackEnd.png'
 import Mble from '../../assets/Mble.png'
 import DB from '../../assets/DB.png' 
-import './index.css'
+import './TechnologiesPlatformSection.css'
 
 
 const TechnologiesPlatformSection= () => {

@@ -1,7 +1,7 @@
 import React from 'react'
 import { IoPersonOutline } from "react-icons/io5";
 import { TfiEmail } from "react-icons/tfi";
-import './index.css'
+import './Form.css'
 
 const Form = () => {
   return (

@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import './index.css';
+import './Slider.css';
 import mobileImg1 from '../../assets/mobile1.png'
 import mobileImg2 from '../../assets/mobile2.png'
 import mobileImg3 from '../../assets/mobile3.png'
@@ -40,7 +40,6 @@ const Slider = () => {
         <div className="item" style={{ backgroundImage: `url(${mobileImg5})`}}>
         </div>
       </div>
-
       <div className="button">
         <button className="prev" onClick={handlePrev}><IoIosArrowBack  className='arrow-icon' /></button>
         <button className="next" onClick={handleNext}><IoIosArrowForward  className='arrow-icon'/></button>
