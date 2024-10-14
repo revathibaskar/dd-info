@@ -4,6 +4,7 @@
     justify-content: center;
     font-family: "Poppins", sans-serif;
     margin-bottom: 80px;
+    margin-top: 50px;
 }
 
 .border-box {
@@ -27,7 +28,7 @@
   background-color: black;
   left:20px;
   position: absolute;
-  top: -18px; /* Moves the heading outside the box */
+  top: -23px; /* Moves the heading outside the box */
   font-size: 28px;
   font-weight: 500;
   z-index: 1;
