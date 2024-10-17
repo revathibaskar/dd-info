@@ -26,7 +26,9 @@ const ProjectSection = () => {
          </div>
          <h5>Careers</h5>
       </div>
+      <div id="project-enquiry-form">
       <Form />
+      </div>
       </div> 
     </div>
  

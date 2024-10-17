@@ -14,12 +14,18 @@
 
 .porttfolio-section-bg-container h1{
     color: #BDBDBD;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     display: inline-block;
     /* position: relative; */
     padding-bottom: 10px;
  
+}
+
+@media screen and (min-width:1024px) {
+    .porttfolio-section-bg-container h1{
+        font-size: 35px;
+    }
 }
 
 .porttfolio-section-bg-container h3 {

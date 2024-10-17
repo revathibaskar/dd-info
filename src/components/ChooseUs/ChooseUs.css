@@ -1,8 +1,6 @@
 .choose-us-bg{
     background-color: #000000;
     font-family:"Roboto", sans-serif ;
-    /* padding-top: 60px;
-    padding-bottom: 60px; */
     padding:30px;
 
 }
@@ -13,6 +11,11 @@
     flex-direction: column;
     justify-content: center;
     }
+}
+.timeline-choose-head-container{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
 }
 
 .choose-us-head-container {
@@ -83,7 +86,7 @@
 
 @media screen and (min-width:1024px){
     .success-stry-head{
-        font-size: 30px;
+        font-size: 35px;
     }
 }
 

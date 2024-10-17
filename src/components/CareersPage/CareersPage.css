@@ -1,0 +1,47 @@
+.career-page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.career-page-head-container {
+    font-family:"Roboto", sans-serif ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+.career-page-head-container h1{
+    color: #F4C196;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+@media screen and (min-width:992px){    
+.career-page-head-container h1{
+    font-size: 35px;
+  }
+}
+.career-page-head-container h3 {
+    color: #bdbdbd;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+@media screen and (min-width:992px){    
+    .career-page-head-container h3{
+        line-height: 1.5;
+        font-size: 20px;
+      }
+    }
+
+.mouse-logo{
+    margin-bottom: 30px;
+}

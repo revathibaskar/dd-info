@@ -37,6 +37,15 @@
 .container:nth-child(3){
     animation-delay: 2s;
 }
+.container:nth-child(4){
+    animation-delay: 3s;
+}
+.container:nth-child(5){
+    animation-delay: 4s;
+}
+.container:nth-child(6){
+    animation-delay: 5s;
+}
 
 .text-box{
    padding: 30px 20px;
@@ -93,7 +102,7 @@
     left: 50%;
     margin-left: -1.5px;
     z-index:-1;
-    animation: moveline 4s linear forwards;
+    animation: moveline 6s linear forwards;
 }
 
 @keyframes moveline {

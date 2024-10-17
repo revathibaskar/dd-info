@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <header>
      <div className='header-main-container'>
-        <img src={ddLogo} className='dd-logo' /> 
+        <Link  to="/"><img src={ddLogo} className='dd-logo' /> </Link> 
         <nav className={isCliked && 'active-nav'}> 
         <ul className='mobile-header-ul-con'>
             <Link to="/" className='remove-line'><li>Home</li></Link>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import HeaderNav from '../Header/Header'
 import backgroundVideo from '../../assets/backgroundVideo.mp4'
 import './HomePage.css'
@@ -10,9 +10,18 @@ import ProjectSection from '../ProjectSection/ProjectSection'
 import ReviewSection from '../ReviewSection/ReviewSection'
 import Footer from '../Footer/Footer'
 import PortfolioSection from '../PortfolioSection/PortfolioSection'
-import Slider2 from '../Slider2/Slider2'
 
 const HomePage = () => {
+  useEffect(() => {
+    // Check if there's a hash in the URL and scroll to that section
+    if (window.location.hash) {
+      const element = document.getElementById(window.location.hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, []);
+
   return (
   <div>  
    <div className='video-container'>   

@@ -63,6 +63,7 @@
 @media screen and (min-width:1024px) {
     .bg-content{
         padding-left: 80px;
+        margin-bottom: 10px;
     }
     .mobile-content-video-container{
         display: none;

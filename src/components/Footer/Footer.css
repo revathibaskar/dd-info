@@ -77,7 +77,7 @@ footer ul li{
     color: #bdbdbd;
 }
 
-footer button{
+.project-enquiry-btn{
     height:40px;
     width:160px;
     background-color: #F4C196;
@@ -87,6 +87,9 @@ footer button{
     align-items: center;
     margin-bottom: 20px;
     border: none;
+    text-decoration: none;
+    color: #353535;
+    font-family: 'Roboto';
 }
 
 .angle-right-icon{
